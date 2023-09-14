@@ -1,4 +1,5 @@
 # https://github.com/phips28/gh-action-bump-version
+# in commit use #major or #minor or #patch (default) to bump the version
 name: Auto Bump Version
 
 on:
