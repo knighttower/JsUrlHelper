@@ -3,7 +3,7 @@
 
 ## Overview
 
-The `urlHelper` module is a utility library for URL manipulation and navigation within a browser environment.
+The `urlHelper` module is a utility library for URL manipulation and navigation with the 'window' object.
 
 ## Installation
 ```javascript
