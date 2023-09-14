@@ -19,6 +19,6 @@ jobs:
           GITHUB_TOKEN: ${{ secrets.GIT_TOKEN }}
         with:
           version-type: 'patch'
-          skip-push: 'false'
           target-branch: ${{ github.head_ref }}
           bump-policy: 'ignore'
+          commit-message: 'CI: bumps version to {{version}}'
