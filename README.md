@@ -13,7 +13,7 @@ npm i @knighttower/js-url-helper
 yarn add @knighttower/js-url-helper
 ```
 ```javascript
-import urlHelper from 'JsUrlHelper';
+import urlHelper from '@knighttower/js-url-helper';
 ```  
 
 ## In the browser  
