@@ -19,9 +19,10 @@ jobs:
           GITHUB_TOKEN: ${{ secrets.GIT_TOKEN }}
         with:
           version-type:  'patch'
-          skip-push:  'true'
+          skip-tag:  'true'
           target-branch: 'development'
           bump-policy: 'ignore'
+          commit-message: 'CI: bumps version to {{version}} [skip ci]'
   build:
       needs: bump_version
       runs-on: ubuntu-latest
