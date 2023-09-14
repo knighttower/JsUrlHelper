@@ -1,0 +1,24 @@
+name: "release version"
+on:
+  pull_request:
+    types: [opened, synchronize]
+    branches:
+      - "development"
+jobs:
+  bump_version:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v2
+        with:
+          ref: ${{ github.head_ref }}
+
+      - name: Bump version in package.json
+        uses: phips28/gh-action-bump-version@v7.1.0
+        env:
+          GITHUB_TOKEN: ${{ secrets.GIT_TOKEN }}
+        with:
+          version-type: 'patch'
+          skip-push: 'false'
+          target-branch: ${{ github.head_ref }}
+          bump-policy: 'ignore'
