@@ -1,0 +1,39 @@
+{
+    "name": "@knighttower/js-url-helper",
+    "version": "1.0.0",
+    "main": "JsUrlHelper.js",
+    "module": "JsUrlHelper.js",
+    "unpkg": "dist/JsUrlHelper.js",
+    "jsdelivr": "dist/JsUrlHelper.js",
+    "license": "MIT",
+    "description": "JsUrlHelper is a JavaScript class to get the most common use cases with the URL object.",
+    "homepage": "https://github.com/knighttower/JsUrlHelper",
+    "author": "knighttower (https://github.com/knighttower)",
+    "keywords": [
+        "Utility",
+        "Vue",
+        "library",
+        "plugin",
+        "URL",
+        "Vue 2",
+        "Vue 3",
+        "javascript",
+        "Adaptive",
+        "DOM",
+        "functions",
+        "helper",
+        "knighttower"
+    ],
+    "repository": {
+        "type": "git",
+        "url": "git://github.com/knighttower/JsUrlHelper.git"
+    },
+    "scripts": {
+        "build": "mix --production",
+        "dev": "mix",
+        "watch": "mix watch"
+    },
+    "dependencies": {
+        "laravel-mix": "^6.0.49"
+    }
+}
