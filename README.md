@@ -7,10 +7,10 @@ The `urlHelper` module is a utility library for URL manipulation and navigation 
 
 ## Installation
 ```javascript
-npm install JsUrlHelper
+npm i @knighttower/js-url-helper
 ```
 ```javascript
-yarn add JsUrlHelper
+yarn add @knighttower/js-url-helper
 ```
 ```javascript
 import urlHelper from 'JsUrlHelper';
