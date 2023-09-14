@@ -1,0 +1,26 @@
+# https://github.com/phips28/gh-action-bump-version
+name: Auto Bump Version
+
+on:
+  push:
+    branches:
+      - development
+
+jobs:
+  bump_version:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v2
+
+      - name: Bump version in package.json
+        uses: phips28/gh-action-bump-version@master
+        env:
+          GITHUB_TOKEN: ${{ secrets.GIT_TOKEN }}
+        with:
+          version-type:  'patch'
+          skip-push:  'true'
+          target-branch: 'development'
+          bump-policy: 'ignore'
+          
+        
