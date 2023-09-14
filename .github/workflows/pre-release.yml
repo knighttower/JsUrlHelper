@@ -8,10 +8,14 @@ on:
       - "development"
 jobs:
   bump_version:
+    permissions:
+      contents: write
     runs-on: ubuntu-latest
     steps:
       - name: Checkout repository
         uses: actions/checkout@v2
+        with:
+          node-version: 16
 
       - name: Bump version in package.json
         uses: phips28/gh-action-bump-version@master
