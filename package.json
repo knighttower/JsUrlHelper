@@ -33,7 +33,7 @@
         "dev": "mix",
         "watch": "mix watch"
     },
-    "dependencies": {
+    "devDependencies": {
         "laravel-mix": "^6.0.49"
     }
 }
