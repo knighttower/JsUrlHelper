@@ -1,9 +1,15 @@
 
 # urlHelper JavaScript Module Documentation
 
+
 ## Overview
 
 The `urlHelper` module is a utility library for URL manipulation and navigation with the 'window' object.
+
+---  
+# Note:  
+**For better maintenance, this library has been placed along with JsUtilities (https://github.com/knighttower/JsUtility) to create an easier entry point for many resources that will collaborate together**
+--> only the docs will remain here for now.
 
 ## Installation
 ```javascript
