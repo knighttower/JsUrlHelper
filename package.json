@@ -1,6 +1,6 @@
 {
     "name": "@knighttower/js-url-helper",
-    "version": "1.0.3",
+    "version": "1.0.4",
     "main": "JsUrlHelper.js",
     "module": "JsUrlHelper.js",
     "unpkg": "dist/JsUrlHelper.js",
