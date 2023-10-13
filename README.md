@@ -1,31 +1,40 @@
 
 # urlHelper JavaScript Module Documentation
 
+# Note:  
+**For better maintenance, this library has been placed along with JsUtilities (https://github.com/knighttower/JsUtility) to create an easier entry point for many resources that will collaborate together**
+--> only the docs will remain here for now.  
 
 ## Overview
 
 The `urlHelper` module is a utility library for URL manipulation and navigation with the 'window' object.
 
 ---  
-# Note:  
-**For better maintenance, this library has been placed along with JsUtilities (https://github.com/knighttower/JsUtility) to create an easier entry point for many resources that will collaborate together**
---> only the docs will remain here for now.
 
 ## Installation
 ```javascript
-npm i @knighttower/js-url-helper
+npm i @knighttower/js-utility-functions
 ```
 ```javascript
-yarn add @knighttower/js-url-helper
+yarn add @knighttower/js-utility-functions
 ```
 ```javascript
-import urlHelper from '@knighttower/js-url-helper';
+import UrlHelper from '@knighttower/js-utility-functions';
 ```  
 
 ## In the browser  
 It loads as a 'window' object --> window.urlHelper
 ```html
-<script src=" https://cdn.jsdelivr.net/npm/@knighttower/js-url-helper@latest/dist/JsUrlHelper.min.js "></script>
+<script src=" https://cdn.jsdelivr.net/npm/@knighttower/js-utility-functions@latest/dist/browser/UrlHelper.min.js"></script>
+
+// ---> Also available as ESM, UMD, CJS, JS
+// ESM 
+<script src="https://esm.run/@knighttower/js-utility-functions@latest/index.mjs"></script>
+// UMD
+<script src="https://cdn.jsdelivr.net/npm/@knighttower/js-utility-functions@latest/dist/umd/UrlHelper.min.js"></script>
+// CJS
+<script src="https://cdn.jsdelivr.net/npm/@knighttower/js-utility-functions@latest/dist/cjs/UrlHelper.min.js"></script>
+
 ```    
 
 ## Constants (gets)
